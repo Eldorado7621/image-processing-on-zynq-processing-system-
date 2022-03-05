@@ -36,7 +36,7 @@ reg [8:0] wrPntr;
 reg [8:0] rdPntr;
 
 
-// model how data will be returned
+// model how data will be stored
 always @(posedge i_clk)
 begin
     if(i_data_valid)
